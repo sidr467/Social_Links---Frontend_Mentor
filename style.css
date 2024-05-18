@@ -60,3 +60,36 @@ body {
 .quote {
   font-size: 0.9rem;
 }
+
+.link-container > ul {
+  margin-top: 1.8rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  row-gap: 1.3rem;
+}
+
+li {
+  list-style: none;
+}
+
+.links {
+  background-color: var(--Grey);
+  text-align: center;
+  padding: 0.6rem;
+  width: 270px;
+  height: 40px;
+  border-radius: 0.4rem;
+}
+
+ul > a {
+  text-decoration: none;
+  color: var(--White);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+li:hover {
+  background: var(--Green);
+  color: black;
+}
