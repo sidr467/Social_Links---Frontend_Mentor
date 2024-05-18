@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
 :root {
@@ -24,9 +25,9 @@ body {
 }
 
 .container {
-  border: 1px solid white;
-  width: 400px;
-  height: 550px;
+  border-radius: 1rem;
+  width: 350px;
+  height: 630px;
   background: var(--DarkGrey);
   display: flex;
   flex-direction: column;
@@ -35,7 +36,27 @@ body {
 }
 
 .img-container > img {
-    width: 80px;
-    border-radius:50%;
-    margin-top: 2rem;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+.text-container {
+  text-align: center;
+  font-size: 15px;
+}
+
+.heading {
+  font-weight: 600;
+}
+
+.location {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--Green);
+  margin-bottom: 1.8rem;
+}
+
+.quote {
+  font-size: 0.9rem;
 }
