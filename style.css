@@ -13,3 +13,29 @@
   --DarkGrey: hsl(0, 0%, 12%);
   --OffBlack: hsl(0, 0%, 8%);
 }
+
+body {
+  background: var(--OffBlack);
+  color: var(--White);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  border: 1px solid white;
+  width: 400px;
+  height: 550px;
+  background: var(--DarkGrey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.img-container > img {
+    width: 80px;
+    border-radius:50%;
+    margin-top: 2rem;
+}
