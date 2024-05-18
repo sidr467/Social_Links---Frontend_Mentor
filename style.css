@@ -63,18 +63,19 @@ body {
 }
 
 .link-container {
-  margin-top: 1.8rem;
+  margin-top: 1.8rem auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(5, 1fr);
   row-gap: 1.3rem;
+
 }
 
 a {
   display: block;
   background-color: var(--Grey);
-  width: 300px;
-  padding: 0.7rem;
+  width: 310px;
+  padding: 0.9rem;
   text-align: center;
   font-size: 0.9rem;
   text-decoration: none;
